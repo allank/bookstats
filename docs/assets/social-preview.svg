@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">bookstats social preview</title>
+  <desc id="desc">The bookstats depth-chart logo beside the name bookstats and the tagline: order book depth for Go, covering notional, cumulative depth, slippage in basis points, bands and fill price.</desc>
+  <rect width="1280" height="640" fill="#0F172A"/>
+  <!-- Logo mark, scaled from logo.svg (256 to 384) -->
+  <g transform="translate(96 128) scale(1.5)">
+    <path d="M128 20 V204" stroke="#94A3B8" stroke-width="4" stroke-dasharray="8 6" stroke-linecap="round" fill="none"/>
+    <path d="M122 200 V164 H100 V136 H78 V108 H56 V72 H34 V48 H16 V200 Z" fill="#12A37A"/>
+    <path d="M134 200 V172 H156 V144 H178 V100 H200 V84 H222 V40 H240 V200 Z" fill="#E5484D"/>
+    <g fill="#12A37A">
+      <rect x="16" y="212" width="20" height="16" rx="3" opacity="0.35"/>
+      <rect x="40" y="212" width="20" height="16" rx="3" opacity="0.5"/>
+      <rect x="64" y="212" width="20" height="16" rx="3" opacity="0.7"/>
+      <rect x="88" y="212" width="20" height="16" rx="3" opacity="0.85"/>
+    </g>
+    <g fill="#E5484D">
+      <rect x="148" y="212" width="20" height="16" rx="3" opacity="0.85"/>
+      <rect x="172" y="212" width="20" height="16" rx="3" opacity="0.7"/>
+      <rect x="196" y="212" width="20" height="16" rx="3" opacity="0.5"/>
+      <rect x="220" y="212" width="20" height="16" rx="3" opacity="0.35"/>
+    </g>
+  </g>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#F8FAFC">
+    <text x="560" y="290" font-size="104" font-weight="700" letter-spacing="-2">bookstats</text>
+    <text x="564" y="364" font-size="34" fill="#CBD5E1">Order book depth for Go</text>
+    <text x="564" y="420" font-size="26" fill="#94A3B8">Notional · cumulative depth · slippage bps</text>
+    <text x="564" y="460" font-size="26" fill="#94A3B8">Bands · fill-price lookup</text>
+  </g>
+</svg>

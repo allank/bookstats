@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title desc">
+  <title id="title">bookstats logo</title>
+  <desc id="desc">A cumulative order book depth chart: a green bid staircase and a red ask staircase rising outward from a dashed mid line, with fixed-width bands beneath.</desc>
+  <!-- Mid line -->
+  <path d="M128 20 V204" stroke="#94A3B8" stroke-width="4" stroke-dasharray="8 6" stroke-linecap="round" fill="none"/>
+  <!-- Bids: cumulative depth walking left from best bid -->
+  <path d="M122 200 V164 H100 V136 H78 V108 H56 V72 H34 V48 H16 V200 Z" fill="#12A37A"/>
+  <!-- Asks: cumulative depth walking right from best ask -->
+  <path d="M134 200 V172 H156 V144 H178 V100 H200 V84 H222 V40 H240 V200 Z" fill="#E5484D"/>
+  <!-- Fixed-width bands -->
+  <g fill="#12A37A">
+    <rect x="16" y="212" width="20" height="16" rx="3" opacity="0.35"/>
+    <rect x="40" y="212" width="20" height="16" rx="3" opacity="0.5"/>
+    <rect x="64" y="212" width="20" height="16" rx="3" opacity="0.7"/>
+    <rect x="88" y="212" width="20" height="16" rx="3" opacity="0.85"/>
+  </g>
+  <g fill="#E5484D">
+    <rect x="148" y="212" width="20" height="16" rx="3" opacity="0.85"/>
+    <rect x="172" y="212" width="20" height="16" rx="3" opacity="0.7"/>
+    <rect x="196" y="212" width="20" height="16" rx="3" opacity="0.5"/>
+    <rect x="220" y="212" width="20" height="16" rx="3" opacity="0.35"/>
+  </g>
+</svg>
