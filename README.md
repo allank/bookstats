@@ -1,5 +1,7 @@
 # bookstats
 
+<img src="docs/assets/logo.svg" alt="bookstats logo: green bid and red ask depth staircases on either side of a dashed mid line" width="128">
+
 `bookstats` enriches a raw Order Book — a list of bid and ask price/volume
 pairs — with the columns needed to actually answer depth questions: how
 much value is available at each price, how far each level sits from mid in
