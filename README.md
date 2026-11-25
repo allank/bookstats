@@ -342,3 +342,7 @@ reproducible.
 ```sh
 go test ./...
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
